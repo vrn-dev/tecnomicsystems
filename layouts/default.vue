@@ -1,5 +1,14 @@
 <template>
   <div>
+    <nav class="flex items-center justify-between flex-wrap bg-gray-300 p-6">
+      <a class="flex items-center flex-shrink-0 text-white mr-6" href="#">
+        <img
+          src="~/assets/images/TSPL_240_transparent.png"
+          class="h-16 w-18"
+          alt="Tecnomic Logo"
+        />
+      </a>
+    </nav>
     <nuxt />
   </div>
 </template>
