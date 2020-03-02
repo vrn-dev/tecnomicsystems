@@ -1,17 +1,21 @@
 <template>
   <div>
-    <nav class="flex items-center justify-between flex-wrap bg-gray-300 p-6">
-      <a class="flex items-center flex-shrink-0 text-white mr-6" href="#">
-        <img
-          src="~/assets/images/TSPL_240_transparent.png"
-          class="h-16 w-18"
-          alt="Tecnomic Logo"
-        />
-      </a>
-    </nav>
+    <Navbar />
     <nuxt />
+    <Footer />
   </div>
 </template>
+
+<script>
+import Navbar from '~/components/Navbar.vue';
+import Footer from '~/components/Footer.vue';
+export default {
+  components: {
+    Navbar,
+    Footer
+  }
+};
+</script>
 
 <style>
 html {
@@ -60,5 +64,50 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+/* Sample `apply` at-rules with Tailwind CSS
+.container {
+  @apply min-h-screen flex justify-center items-center text-center mx-auto;
+}
+*/
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  color: #35495e;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 42px;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.subtitle-2 {
+  font-weight: 400;
+  font-size: 28px;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.links {
+  padding-top: 15px;
 }
 </style>

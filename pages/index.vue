@@ -1,73 +1,40 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        tecnomicsystems
-      </h1>
-      <h2 class="subtitle">
-        Tecnomic Systems Website
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div>
+    <div class="container bg-blue-100">
+      <div>
+        <div class="flex justify-center">
+          <img
+            class="h-40"
+            src="~/assets/images/tecnomic_vector.png"
+            alt="Tecnomic Logo"
+          />
+        </div>
+        <h1 class="title">
+          Tecnomic Systems
+        </h1>
+        <h2 class="subtitle">
+          Simplifying Enterprise
+        </h2>
       </div>
     </div>
+    <Section1 />
+    <Section2 />
+    <Section3 />
+    <Section4 />
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
+import Section1 from '~/components/home/Section1.vue';
+import Section2 from '~/components/home/Section2.vue';
+import Section3 from '~/components/home/Section3.vue';
+import Section4 from '~/components/home/Section4.vue';
 export default {
   components: {
-    Logo
+    Section1,
+    Section2,
+    Section3,
+    Section4
   }
-}
+};
 </script>
-
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
