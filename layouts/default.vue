@@ -1,5 +1,14 @@
 <template>
-  <div>
+  <div class="antialiased">
+    <back-to-top bottom="50px" right="50px">
+      <button
+        class="bg-purple-600 hover:bg-pink-400 text-white font-bold py-2 px-4 rounded-full"
+      >
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBkPSJNMTUuOTk3IDEzLjM3NGwtNy4wODEgNy4wODFMNyAxOC41NGw4Ljk5Ny04Ljk5OCA5LjAwMyA5LTEuOTE2IDEuOTE2eiIvPjwvc3ZnPg=="
+        />
+      </button>
+    </back-to-top>
     <Navbar />
     <nuxt />
     <Footer />
@@ -7,12 +16,15 @@
 </template>
 
 <script>
+import BackToTop from '~/plugins/BackToTop.vue';
 import Navbar from '~/components/Navbar.vue';
 import Footer from '~/components/Footer.vue';
+
 export default {
   components: {
     Navbar,
-    Footer
+    Footer,
+    BackToTop
   }
 };
 </script>
@@ -35,6 +47,10 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+a {
+  cursor: pointer;
 }
 
 .button--green {
@@ -81,6 +97,13 @@ html {
   text-align: center;
 }
 
+.spacer {
+  margin: 0 auto;
+  min-height: 40vh;
+  min-width: 100vw;
+  display: flex;
+}
+
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -97,6 +120,10 @@ html {
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
+}
+
+.attribute-link {
+  font-size: 8px;
 }
 
 .subtitle-2 {

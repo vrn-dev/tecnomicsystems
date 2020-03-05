@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-gray-200 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
+    class="bg-gray-200 opacity-100 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
   >
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div>
@@ -35,35 +35,35 @@
       :class="isOpen ? 'block' : 'hidden'"
       class="px-2 pt-2 pb-4 sm:flex sm:p-0"
     >
-      <a
-        href="#"
+      <nuxt-link
+        to="/"
         class="block px-2 py-1 text-gray-800 font-semibold rounded hover:text-purple-800"
-        >Home</a
+        >Home</nuxt-link
       >
-      <a
-        href="#"
+      <nuxt-link
+        to="/about"
         class="block px-2 py-1 text-gray-800 font-semibold rounded hover:text-purple-800"
-        >About</a
+        >About</nuxt-link
       >
-      <a
-        href="#"
+      <nuxt-link
+        to="/security"
         class="block px-2 py-1 text-gray-800 font-semibold rounded hover:text-purple-800"
-        >Security</a
+        >Security</nuxt-link
       >
-      <a
-        href="#"
+      <nuxt-link
+        to="/telecom"
         class="block px-2 py-1 text-gray-800 font-semibold rounded hover:text-purple-800"
-        >Telecom</a
+        >Telecom</nuxt-link
       >
-      <a
-        href="#"
+      <nuxt-link
+        to="/#"
         class="block px-2 py-1 text-gray-800 font-semibold rounded hover:text-purple-800"
-        >Partners</a
+        >Partners</nuxt-link
       >
-      <a
-        href="#"
+      <nuxt-link
+        to="/#"
         class="block px-2 py-1 text-gray-800 font-semibold rounded hover:text-purple-800"
-        >Contact</a
+        >Contact</nuxt-link
       >
     </nav>
   </header>
