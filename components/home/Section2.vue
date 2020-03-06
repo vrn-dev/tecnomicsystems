@@ -12,7 +12,11 @@
           <nuxt-link to="/security">
             <div class="flex-col justify-center mx-5">
               <div class="flex justify-center mb-3">
-                <img class="h-40" src="~/assets/icons/casb1.png" alt="CASB" />
+                <img
+                  class="h-40 lazyload"
+                  data-src="/icons/cloud-access-security-broker2.png"
+                  alt="CASB"
+                />
               </div>
               <h2 class="subtitle-2">
                 Cloud Access
@@ -27,8 +31,8 @@
             <div class="flex-col justify-center mx-5">
               <div class="flex justify-center mb-3">
                 <img
-                  class="h-40"
-                  src="~/assets/icons/data-classification.png"
+                  class="h-40 lazyload"
+                  data-src="/icons/data-classification.png"
                   alt="Data Classification"
                 />
               </div>
@@ -39,7 +43,11 @@
           <nuxt-link to="/security">
             <div class="flex-col justify-center mx-5">
               <div class="flex justify-center mb-3">
-                <img class="h-40" src="~/assets/icons/dlp.png" alt="DLP" />
+                <img
+                  class="h-40 lazyload"
+                  data-src="/icons/data-loss-prevention.png"
+                  alt="DLP"
+                />
               </div>
               <h2 class="subtitle-2">Data Loss Prevention</h2>
             </div></nuxt-link
@@ -49,8 +57,8 @@
             <div class="flex-col justify-center mx-5">
               <div class="flex justify-center mb-3">
                 <img
-                  class="h-40"
-                  src="~/assets/icons/threat-protection.png"
+                  class="h-40 lazyload"
+                  data-src="/icons/threat-protection.png"
                   alt="Threat Protection"
                 />
               </div>

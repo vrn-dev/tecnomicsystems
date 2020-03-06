@@ -9,8 +9,8 @@
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
               <img
-                class="h-40"
-                src="~/assets/icons/building-blocks.png"
+                class="h-40 lazyload"
+                data-src="/icons/building-blocks.png"
                 alt="Telecom Building Blocks"
               />
             </div>
@@ -20,8 +20,8 @@
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
               <img
-                class="h-40"
-                src="~/assets/icons/cyber-security.png"
+                class="h-40 lazyload"
+                data-src="/icons/cyber-security.png"
                 alt="Cyber Security"
               />
             </div>
@@ -31,8 +31,8 @@
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
               <img
-                class="h-40"
-                src="~/assets/icons/uc.png"
+                class="h-40 lazyload"
+                data-src="/icons/unified-communications.png"
                 alt="Unified Communications"
               />
             </div>
@@ -41,7 +41,7 @@
 
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
-              <img class="h-40" src="~/assets/icons/iot.png" alt="IoT" />
+              <img class="h-40 lazyload" data-src="/icons/iot.png" alt="IoT" />
             </div>
             <h2 class="subtitle-2">IoT</h2>
           </div>
@@ -49,8 +49,8 @@
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
               <img
-                class="h-40"
-                src="~/assets/icons/headphones.png"
+                class="h-40 lazyload"
+                data-src="/icons/contact-center-headphones.png"
                 alt="Contact Center"
               />
             </div>
@@ -60,8 +60,8 @@
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
               <img
-                class="h-40"
-                src="~/assets/icons/services.png"
+                class="h-40 lazyload"
+                data-src="/icons/services.png"
                 alt="Professional Services"
               />
             </div>

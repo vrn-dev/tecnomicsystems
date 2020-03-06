@@ -14,7 +14,13 @@
           and timely threat mitigating actions
         </div>
       </div>
-      <img src="~/assets/icons/threat-management.png" alt="" class="h-56" />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/threat-management.png"
+          alt="Threat Management"
+          class="h-56 lazyload"
+        />
+      </div>
     </div>
   </intersect>
 </template>

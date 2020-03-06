@@ -6,7 +6,7 @@
 
         <Quicklook @refName="scrollToAnchor" />
 
-        <div class="flex flex-col justify-cente items-center content-center">
+        <main class="flex flex-col justify-cente items-center content-center">
           <CASB ref="casb" />
           <DLP ref="dlp" />
           <DataClassification ref="dataClassification" />
@@ -37,7 +37,8 @@
           <SecurityArchitecture ref="securityArchitecture" />
           <ImplementationServices ref="implementationSevices" />
           <TrainingServices ref="trainingServices" />
-        </div>
+        </main>
+        <div class="spacer-2"></div>
       </div>
     </div>
   </div>

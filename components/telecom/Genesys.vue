@@ -8,8 +8,9 @@
         <img
           height="200"
           width="400"
-          src="~/assets/partner-logos/genesys.png"
-          alt=""
+          data-src="/partner-logos/genesys.png"
+          alt="Genesys"
+          class="lazyload"
         />
       </div>
       <div class="flex-col justify-center p-6">

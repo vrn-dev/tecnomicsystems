@@ -14,7 +14,13 @@
           breaches, and meeting compliance requirements
         </div>
       </div>
-      <img src="~/assets/icons/privilege-management.png" alt="" class="h-56" />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/privilege-management.png"
+          alt="Privilege Management"
+          class="h-56 lazyload"
+        />
+      </div>
     </div>
   </intersect>
 </template>

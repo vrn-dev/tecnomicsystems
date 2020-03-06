@@ -6,7 +6,7 @@
 
         <Quicklook @refName="scrollToAnchor" />
 
-        <div class="flex flex-col justify-cente items-center content-center">
+        <main class="flex flex-col justify-cente items-center content-center">
           <TelecomBuildingBlocks ref="tbb" />
           <div class="border border-1 border-pink-700 w-2/3 mt-10"></div>
           <div class="subtitle mt-10">Unified Communications</div>
@@ -31,7 +31,8 @@
             Services
           </div>
           <PS ref="ps" />
-        </div>
+        </main>
+        <div class="spacer-2"></div>
       </div>
     </div>
   </div>

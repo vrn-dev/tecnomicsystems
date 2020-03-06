@@ -8,8 +8,9 @@
         <img
           height="200"
           width="400"
-          src="~/assets/partner-logos/busylight.png"
-          alt=""
+          data-src="/partner-logos/busylight.png"
+          alt="Kuando Busylight"
+          class="lazyload"
         />
       </div>
       <div class="flex-col justify-center p-6">

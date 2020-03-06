@@ -23,8 +23,9 @@
         <img
           height="200"
           width="400"
-          src="~/assets/partner-logos/interlink.png"
-          alt=""
+          data-src="/partner-logos/interlink.png"
+          alt="Interlink"
+          class="lazyload"
         />
       </div>
     </div>

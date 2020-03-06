@@ -18,8 +18,9 @@
         <img
           height="200"
           width="400"
-          src="~/assets/partner-logos/innovaphone.png"
-          alt=""
+          data-src="/partner-logos/innovaphone.png"
+          alt="Innovaphone IP PBX"
+          class="lazyload"
         />
       </div>
     </div>

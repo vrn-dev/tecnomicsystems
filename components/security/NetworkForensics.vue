@@ -13,7 +13,13 @@
           and mitigating future threats for your company
         </div>
       </div>
-      <img src="~/assets/icons/network-forensics.png" alt="" class="h-56" />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/network-forensics.png"
+          alt="Network Forensics"
+          class="h-56 lazyload"
+        />
+      </div>
     </div>
   </intersect>
 </template>

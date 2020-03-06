@@ -16,7 +16,13 @@
           your enterprise
         </div>
       </div>
-      <img src="~/assets/icons/firewall.png" alt="" class="h-56" />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/firewall.png"
+          alt="Next Generation Firewall"
+          class="h-56 lazyload"
+        />
+      </div>
     </div>
   </intersect>
 </template>

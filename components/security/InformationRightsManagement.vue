@@ -15,11 +15,13 @@
           is just one of the popular features
         </div>
       </div>
-      <img
-        src="~/assets/icons/information-rights-management.png"
-        alt=""
-        class="h-56"
-      />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/information-rights-management.png"
+          alt="Information Rights Management"
+          class="h-56 lazyload"
+        />
+      </div>
     </div>
   </intersect>
 </template>

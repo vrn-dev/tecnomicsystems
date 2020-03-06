@@ -1,10 +1,14 @@
 <template>
   <intersect @enter="section1 = true" @leave="section1 = false">
-    <div
+    <!-- <div
       class="grid sm:grid-cols-1 md:grid-cols-2 rounded-lg border border-purple-600 p-10 w-2/3 mt-5"
       :class="section1 ? 'fade-in-bottom' : ''"
+    > -->
+    <div
+      class="flex flex-col-reverse sm:flex-row rounded-lg border border-purple-600 p-10 w-2/3 mt-5"
+      :class="section1 ? 'fade-in-bottom' : ''"
     >
-      <div class="flex-col justify-center p-6">
+      <div class="flex-col justify-center p-6 sm:w-1/2">
         <div class="font-semibold text-lg mb-2">
           Kontron
         </div>
@@ -18,12 +22,15 @@
           applications for a variety of industries
         </div>
       </div>
-      <div class="flex flex-col items-center justify-center content-center">
+      <div
+        class="flex flex-col items-center justify-center content-center sm:w-1/2"
+      >
         <img
           height="200"
           width="400"
-          src="~/assets/partner-logos/kontron.png"
-          alt=""
+          data-src="/partner-logos/kontron.png"
+          alt="Kontron"
+          class="lazyload"
         />
       </div>
     </div>

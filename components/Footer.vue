@@ -6,7 +6,7 @@
       <div class="flex items-center justify-center px-4 py-3 sm:p-0">
         Tecnomic Systems Pte. Ltd. &copy; 2020. All Rights Reserved
       </div>
-      <div class="flex items-center justify-center px-4 py-3 sm:p-0">
+      <div class="flex flex-wrap items-center justify-center px-4 py-3 sm:p-0">
         <div>Singapore</div>
         <div class="text-pink-500">&nbsp;|&nbsp;</div>
         <div>Malaysia</div>

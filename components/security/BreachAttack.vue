@@ -16,11 +16,13 @@
           means
         </div>
       </div>
-      <img
-        src="~/assets/icons/breach-attack-simulation.png"
-        alt=""
-        class="h-56"
-      />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/breach-attack-simulation.png"
+          alt="Breach Attack Simulation"
+          class="h-56 lazyload"
+        />
+      </div>
     </div>
   </intersect>
 </template>

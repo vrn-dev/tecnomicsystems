@@ -1,11 +1,14 @@
 <template>
   <div class="antialiased">
-    <back-to-top bottom="50px" right="50px" data-not-lazy>
+    <back-to-top bottom="50px" right="50px">
       <button
+        aria-label="Back to Top Button"
         class="bg-purple-600 hover:bg-pink-400 text-white font-bold py-2 px-4 rounded-full"
       >
         <img
-          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBkPSJNMTUuOTk3IDEzLjM3NGwtNy4wODEgNy4wODFMNyAxOC41NGw4Ljk5Ny04Ljk5OCA5LjAwMyA5LTEuOTE2IDEuOTE2eiIvPjwvc3ZnPg=="
+          class="lazyload"
+          alt="Back to Top Button"
+          data-src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBkPSJNMTUuOTk3IDEzLjM3NGwtNy4wODEgNy4wODFMNyAxOC41NGw4Ljk5Ny04Ljk5OCA5LjAwMyA5LTEuOTE2IDEuOTE2eiIvPjwvc3ZnPg=="
         />
       </button>
     </back-to-top>
@@ -100,6 +103,13 @@ a {
 .spacer {
   margin: 0 auto;
   min-height: 40vh;
+  min-width: 100vw;
+  display: flex;
+}
+
+.spacer-2 {
+  margin: 0 auto;
+  min-height: 20vh;
   min-width: 100vw;
   display: flex;
 }

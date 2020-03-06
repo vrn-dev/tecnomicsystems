@@ -5,8 +5,8 @@
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div>
         <img
-          class="h-16"
-          src="~/assets/images/tecnomic_vector.png"
+          class="h-16 lazyload"
+          data-src="/images/tecnomic_vector.png"
           alt="Tecnomic Logo"
         />
       </div>
@@ -67,7 +67,7 @@
         >Partners</nuxt-link
       >
       <nuxt-link
-        to="/#"
+        to="/contact"
         class="block px-2 py-1 text-gray-800 font-semibold rounded hover:text-purple-800"
         >Contact</nuxt-link
       >

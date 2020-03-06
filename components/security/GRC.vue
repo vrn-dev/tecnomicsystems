@@ -14,7 +14,13 @@
           protected
         </div>
       </div>
-      <img src="~/assets/icons/grc.png" alt="" class="h-56" />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/grc.png"
+          alt="Governance Risk and Compliance GRC"
+          class="h-56 lazyload"
+        />
+      </div>
     </div>
   </intersect>
 </template>

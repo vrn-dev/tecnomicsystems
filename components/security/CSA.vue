@@ -15,7 +15,13 @@
           for better informed decisions
         </div>
       </div>
-      <img src="~/assets/icons/csa.png" alt="" class="h-56" />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/current-state-assessment.png"
+          alt="Current State Assessment CSA"
+          class="h-56 lazyload"
+        />
+      </div>
     </div>
   </intersect>
 </template>

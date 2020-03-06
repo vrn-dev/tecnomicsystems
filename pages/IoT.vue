@@ -4,11 +4,12 @@
       <div class="flex flex-col">
         <div class="subtitle">IoT &amp; Industrial Automation</div>
 
-        <div class="flex flex-col justify-cente items-center content-center">
+        <main class="flex flex-col justify-cente items-center content-center">
           <Advantech ref="iot" />
           <Kontron />
           <Lantronix />
-        </div>
+        </main>
+        <div class="spacer-2"></div>
       </div>
     </div>
   </div>

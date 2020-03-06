@@ -13,7 +13,13 @@
           the all the layers of an Organization’s network
         </div>
       </div>
-      <img src="~/assets/icons/security-architecture.png" alt="" class="h-56" />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/security-architecture.png"
+          alt="Security Architecture Advisory"
+          class="h-56 lazyload"
+        />
+      </div>
     </div>
   </intersect>
 </template>

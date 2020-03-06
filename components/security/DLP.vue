@@ -14,7 +14,13 @@
           to regulate and restrict how employees use and transfer sensitive data
         </div>
       </div>
-      <img src="~/assets/icons/dlp.png" alt="" class="h-56" />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/data-loss-prevention.png"
+          alt="Data Loss Prevention or Protection DLP"
+          class="h-56 lazyload"
+        />
+      </div>
     </div>
   </intersect>
 </template>

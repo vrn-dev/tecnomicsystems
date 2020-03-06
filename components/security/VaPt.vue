@@ -18,7 +18,13 @@
           or other malicious activity is possible
         </div>
       </div>
-      <img src="~/assets/icons/va-pt.png" alt="" class="h-56" />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/va-pt.png"
+          alt="Vulnerability Analysis Penetration Testing VA/PT VA-PT"
+          class="h-56 lazyload"
+        />
+      </div>
     </div>
   </intersect>
 </template>

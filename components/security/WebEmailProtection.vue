@@ -14,7 +14,13 @@
           file and URL reputation databases
         </div>
       </div>
-      <img src="~/assets/icons/web-email-protection.png" alt="" class="h-56" />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/web-email-protection.png"
+          alt="Web and Email Protection"
+          class="h-56 lazyload"
+        />
+      </div>
     </div>
   </intersect>
 </template>

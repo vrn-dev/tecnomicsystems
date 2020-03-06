@@ -17,8 +17,9 @@
         <img
           height="200"
           width="400"
-          src="~/assets/partner-logos/enghouse.png"
-          alt=""
+          data-src="/partner-logos/enghouse.png"
+          alt="Enghouse Interactive"
+          class="lazyload"
         />
       </div>
     </div>

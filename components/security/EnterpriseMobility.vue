@@ -13,11 +13,13 @@
           platforms against malware, phishing attacks, spam and more
         </div>
       </div>
-      <img
-        src="~/assets/icons/enterprise-mobility-security.png"
-        alt=""
-        class="h-56"
-      />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/enterprise-mobility-security.png"
+          alt="Enterprise Mobility Security"
+          class="h-56 lazyload"
+        />
+      </div>
     </div>
   </intersect>
 </template>

@@ -14,11 +14,13 @@
           sensitive corporate data
         </div>
       </div>
-      <img
-        src="~/assets/icons/file-integrity-management.png"
-        alt=""
-        class="h-56"
-      />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/file-integrity-management.png"
+          alt="File Integrity Management"
+          class="h-56 lazyload"
+        />
+      </div>
     </div>
   </intersect>
 </template>

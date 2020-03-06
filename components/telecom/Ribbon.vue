@@ -22,8 +22,9 @@
         <img
           height="200"
           width="400"
-          src="~/assets/partner-logos/ribbon.png"
-          alt=""
+          data-src="/partner-logos/ribbon.png"
+          alt="Ribbon Comminications"
+          class="lazyload"
         />
       </div>
     </div>

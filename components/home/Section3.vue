@@ -11,7 +11,11 @@
         >
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
-              <img class="h-40" src="~/assets/icons/sbc.png" alt="SBC" />
+              <img
+                class="h-40 lazyload"
+                data-src="/icons/session-border-controller.png"
+                alt="SBC"
+              />
             </div>
             <h2 class="subtitle-2">Session Border Controllers</h2>
           </div>
@@ -19,8 +23,8 @@
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
               <img
-                class="h-40"
-                src="~/assets/icons/teams.png"
+                class="h-40 lazyload"
+                data-src="/icons/teams.png"
                 alt="Unified Comminications"
               />
             </div>
@@ -30,8 +34,8 @@
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
               <img
-                class="h-40"
-                src="~/assets/icons/contact-center.png"
+                class="h-40 lazyload"
+                data-src="/icons/contact-center.png"
                 alt="Contact Center"
               />
             </div>
@@ -41,8 +45,8 @@
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
               <img
-                class="h-40"
-                src="~/assets/icons/recording.png"
+                class="h-40 lazyload"
+                data-src="/icons/recording.png"
                 alt="Recording"
               />
             </div>

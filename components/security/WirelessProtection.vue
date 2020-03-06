@@ -4,7 +4,13 @@
       class="grid sm:grid-cols-1 md:grid-cols-2 rounded-lg border border-purple-600 p-10 w-2/3 mt-5"
       :class="section1 ? 'fade-in-bottom' : ''"
     >
-      <img src="~/assets/icons/wireless-protection.png" alt="" class="h-56" />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/wireless-protection.png"
+          alt="Wireless Protection"
+          class="h-56 lazyload"
+        />
+      </div>
       <div class="flex-col justify-center p-6">
         <div class="font-semibold text-lg mb-2">
           Wireless Protection

@@ -4,8 +4,8 @@
       <div>
         <div class="flex justify-center">
           <img
-            class="h-40"
-            src="~/assets/images/tecnomic_vector.png"
+            class="h-40 lazyload"
+            data-src="/images/tecnomic_vector.png"
             alt="Tecnomic Logo"
           />
         </div>

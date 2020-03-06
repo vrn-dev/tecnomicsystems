@@ -8,8 +8,9 @@
         <img
           height="200"
           width="400"
-          src="~/assets/partner-logos/audiocodes.png"
-          alt=""
+          data-src="/partner-logos/audiocodes.png"
+          alt="Audiocodes"
+          class="lazyload"
         />
       </div>
       <div class="flex-col justify-center p-6">

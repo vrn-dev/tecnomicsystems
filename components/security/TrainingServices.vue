@@ -14,7 +14,13 @@
           programmes
         </div>
       </div>
-      <img src="~/assets/icons/training-services.png" alt="" class="h-56" />
+      <div class="flex justify-center">
+        <img
+          data-src="/icons/training-services.png"
+          alt="Training Services"
+          class="h-56 lazyload"
+        />
+      </div>
     </div>
   </intersect>
 </template>
