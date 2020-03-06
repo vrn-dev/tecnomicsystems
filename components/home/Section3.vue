@@ -11,14 +11,18 @@
         >
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
-              <img class="h-40" src="~/assets/icons/sbc.png" alt="" />
+              <img class="h-40" src="~/assets/icons/sbc.png" alt="SBC" />
             </div>
             <h2 class="subtitle-2">Session Border Controllers</h2>
           </div>
 
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
-              <img class="h-40" src="~/assets/icons/teams.png" alt="" />
+              <img
+                class="h-40"
+                src="~/assets/icons/teams.png"
+                alt="Unified Comminications"
+              />
             </div>
             <h2 class="subtitle-2">Unified Communications</h2>
           </div>
@@ -28,7 +32,7 @@
               <img
                 class="h-40"
                 src="~/assets/icons/contact-center.png"
-                alt=""
+                alt="Contact Center"
               />
             </div>
             <h2 class="subtitle-2">Contact Center Solutions</h2>
@@ -36,7 +40,11 @@
 
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
-              <img class="h-40" src="~/assets/icons/recording.png" alt="" />
+              <img
+                class="h-40"
+                src="~/assets/icons/recording.png"
+                alt="Recording"
+              />
             </div>
             <h2 class="subtitle-2">Recording Solutions</h2>
           </div>

@@ -13,6 +13,7 @@
       <div class="sm:hidden">
         <button
           type="button"
+          aria-label="menu"
           class="block text-purple-500 hover:text-pink-500 focus:text-pink-500 focus:outline-none"
           @click="isOpen = !isOpen"
         >
@@ -56,7 +57,12 @@
         >Telecom</nuxt-link
       >
       <nuxt-link
-        to="/#"
+        to="/iot"
+        class="block px-2 py-1 text-gray-800 font-semibold rounded hover:text-purple-800"
+        >IoT</nuxt-link
+      >
+      <nuxt-link
+        to="/partners"
         class="block px-2 py-1 text-gray-800 font-semibold rounded hover:text-purple-800"
         >Partners</nuxt-link
       >

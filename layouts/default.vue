@@ -1,6 +1,6 @@
 <template>
   <div class="antialiased">
-    <back-to-top bottom="50px" right="50px">
+    <back-to-top bottom="50px" right="50px" data-not-lazy>
       <button
         class="bg-purple-600 hover:bg-pink-400 text-white font-bold py-2 px-4 rounded-full"
       >

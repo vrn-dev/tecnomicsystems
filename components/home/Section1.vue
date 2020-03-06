@@ -11,7 +11,7 @@
               <img
                 class="h-40"
                 src="~/assets/icons/building-blocks.png"
-                alt=""
+                alt="Telecom Building Blocks"
               />
             </div>
             <h2 class="subtitle-2">Telecom Building Blocks</h2>
@@ -22,7 +22,7 @@
               <img
                 class="h-40"
                 src="~/assets/icons/cyber-security.png"
-                alt=""
+                alt="Cyber Security"
               />
             </div>
             <h2 class="subtitle-2">Cyber Security</h2>
@@ -30,28 +30,40 @@
 
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
-              <img class="h-40" src="~/assets/icons/uc.png" alt="" />
+              <img
+                class="h-40"
+                src="~/assets/icons/uc.png"
+                alt="Unified Communications"
+              />
             </div>
             <h2 class="subtitle-2">Unified Communications</h2>
           </div>
 
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
-              <img class="h-40" src="~/assets/icons/iot.png" alt="" />
+              <img class="h-40" src="~/assets/icons/iot.png" alt="IoT" />
             </div>
             <h2 class="subtitle-2">IoT</h2>
           </div>
 
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
-              <img class="h-40" src="~/assets/icons/headphones.png" alt="" />
+              <img
+                class="h-40"
+                src="~/assets/icons/headphones.png"
+                alt="Contact Center"
+              />
             </div>
             <h2 class="subtitle-2">Contact Center &amp; BI</h2>
           </div>
 
           <div class="flex-col justify-center mx-5">
             <div class="flex justify-center mb-3">
-              <img class="h-40" src="~/assets/icons/services.png" alt="" />
+              <img
+                class="h-40"
+                src="~/assets/icons/services.png"
+                alt="Professional Services"
+              />
             </div>
             <h2 class="subtitle-2">Professional Services</h2>
           </div>
