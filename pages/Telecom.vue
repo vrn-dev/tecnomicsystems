@@ -2,14 +2,14 @@
   <div>
     <div class="container bg-blue-100">
       <div class="flex flex-col">
-        <div class="subtitle">Telecom</div>
+        <h1 class="subtitle">Telecom</h1>
 
         <Quicklook @refName="scrollToAnchor" />
 
-        <main class="flex flex-col justify-cente items-center content-center">
+        <main class="flex flex-col justify-center items-center content-center">
           <TelecomBuildingBlocks ref="tbb" />
           <div class="border border-1 border-pink-700 w-2/3 mt-10"></div>
-          <div class="subtitle mt-10">Unified Communications</div>
+          <h2 class="subtitle">Unified Communications</h2>
           <Audiocodes ref="sbc" />
           <Ribbon />
           <div class="border border-1 border-pink-700 w-2/3 mt-10"></div>
@@ -25,7 +25,6 @@
           <Sangoma />
           <Innovaphone ref="pbx" />
           <Busylight ref="peripherals" />
-
           <div class="border border-1 border-pink-700 w-2/3 mt-10"></div>
           <div class="subtitle mt-10">
             Services
@@ -70,12 +69,13 @@ export default {
   data: () => ({
     chipClass:
       'border border-purple-700 p-5 m-10 font-semibold hover:bg-purple-300 rounded-full',
-    section1: false
+    isOpen: false
   }),
   methods: {
     scrollToAnchor(refName) {
       const el = this.$refs[refName];
       el.$el.scrollIntoView({ behaviour: 'smooth' });
+      this.isOpen = false;
     }
   }
 };

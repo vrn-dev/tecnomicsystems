@@ -1,19 +1,21 @@
 <template>
   <intersect @enter="section1 = true" @leave="section1 = false">
     <div
-      class="grid sm:grid-cols-1 md:grid-cols-2 rounded-lg border border-purple-600 p-10 w-2/3 mt-5"
+      class="flex xs:flex-col xs:items-center xs:w-11/12 xs:p-5 md:flex-row md:w-2/3 md:p-10 rounded-lg border border-purple-600 mt-5"
       :class="section1 ? 'fade-in-bottom' : ''"
     >
-      <img
-        data-src="/icons/security-scoring.png"
-        alt="Security Scoring"
-        class="h-56 lazyload"
-      />
-      <div class="flex-col justify-center p-6">
-        <div class="font-semibold text-lg mb-2">
+      <div class="flex justify-center xs:w-11/12 md:w-1/3">
+        <img
+          data-src="/icons/security-scoring.png"
+          alt="Security Scoring"
+          class="h-56 lazyload"
+        />
+      </div>
+      <div class="flex-col justify-center xs:p-6 md:w-2/3">
+        <h2 class="font-semibold text-lg mb-2">
           Security Scoring
-        </div>
-        <div>
+        </h2>
+        <div class="xs:text-sm md:text-base">
           Our Security Scoring services help you understand the health of you
           cyber ecosystem across multiple risk factors including but not limited
           to Network Security, DNS Health, Pathcing Cadence, Endpoint Security

@@ -9,10 +9,10 @@
             alt="Tecnomic Logo"
           />
         </div>
-        <h1 class="title">
+        <h1 class="text-5xl md:text-6xl">
           Tecnomic Systems
         </h1>
-        <h2 class="subtitle">
+        <h2 class="text-2xl font-light md:text-4xl">
           Simplifying Enterprise
         </h2>
       </div>

@@ -5,14 +5,14 @@
       :class="section1 ? 'fade-in-bottom' : ''"
     > -->
     <div
-      class="flex flex-col-reverse sm:flex-row rounded-lg border border-purple-600 p-10 w-2/3 mt-5"
+      class="flex xs:flex-col-reverse xs:items-center xs:w-11/12 xs:p-5 md:flex-row md:w-2/3 md:p-10 rounded-lg border border-purple-600 mt-5"
       :class="section1 ? 'fade-in-bottom' : ''"
     >
-      <div class="flex-col justify-center p-6 sm:w-1/2">
-        <div class="font-semibold text-lg mb-2">
+      <div class="flex-col justify-center xs:p-6 md:w-2/3">
+        <h2 class="font-semibold text-lg mb-2">
           Kontron
-        </div>
-        <div>
+        </h2>
+        <div class="xs:text-sm md:text-base">
           Kontron is a global leader in embedded computing technology (ECT). As
           a part of technology group S&amp;T, Kontron offers a combined
           portfolio of secure hardware, middleware and services for Internet of
@@ -22,9 +22,7 @@
           applications for a variety of industries
         </div>
       </div>
-      <div
-        class="flex flex-col items-center justify-center content-center sm:w-1/2"
-      >
+      <div class="flex justify-center xs:w-11/12 md:w-1/3">
         <img
           height="200"
           width="400"

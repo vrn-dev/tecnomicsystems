@@ -2,9 +2,9 @@
   <div>
     <div class="container bg-blue-100">
       <div class="flex flex-col">
-        <div class="subtitle">IoT &amp; Industrial Automation</div>
+        <h1 class="subtitle">IoT &amp; Industrial Automation</h1>
 
-        <main class="flex flex-col justify-cente items-center content-center">
+        <main class="flex flex-col justify-center items-center content-center">
           <Advantech ref="iot" />
           <Kontron />
           <Lantronix />

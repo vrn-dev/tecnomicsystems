@@ -2,11 +2,11 @@
   <div>
     <div class="container bg-blue-100">
       <div class="flex flex-col">
-        <div class="subtitle">Security</div>
+        <h1 class="subtitle">Security</h1>
 
         <Quicklook @refName="scrollToAnchor" />
 
-        <main class="flex flex-col justify-cente items-center content-center">
+        <main class="flex flex-col justify-center items-center content-center">
           <CASB ref="casb" />
           <DLP ref="dlp" />
           <DataClassification ref="dataClassification" />
