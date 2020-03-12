@@ -1,0 +1,6 @@
+# robots.txt for www.tecnomicsystems.com
+
+User-agent: *
+Disallow: /attributes*
+
+Sitemap: https://www.tecnomicsystems.com/sitemap.xml
