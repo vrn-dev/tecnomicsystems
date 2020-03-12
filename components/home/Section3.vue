@@ -14,7 +14,7 @@
               <img
                 class="h-40 lazyload"
                 data-src="/icons/session-border-controller.png"
-                alt="SBC"
+                alt="Session Border Controller SBC"
               />
             </div>
             <h2 class="subtitle-2">Session Border Controllers</h2>
@@ -25,7 +25,7 @@
               <img
                 class="h-40 lazyload"
                 data-src="/icons/teams.png"
-                alt="Unified Comminications"
+                alt="Unified Communications"
               />
             </div>
             <h2 class="subtitle-2">Unified Communications</h2>
@@ -47,7 +47,7 @@
               <img
                 class="h-40 lazyload"
                 data-src="/icons/recording.png"
-                alt="Recording"
+                alt="Recording Solutions"
               />
             </div>
             <h2 class="subtitle-2">Recording Solutions</h2>

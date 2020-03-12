@@ -4,7 +4,7 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: 'Tecnomic Systems',
+    title: 'Tecnomic Systems | Simplifying Telecom',
     htmlAttrs: {
       lang: 'en'
     },
@@ -14,7 +14,12 @@ module.exports = {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content:
+          'Tecnomic Systems is your one stop shop for all your Telecom, Cyber Security, IoT, and Contact Center needs'
+      },
+      {
+        name: 'google',
+        content: 'nositelinkssearchbox'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
@@ -43,9 +48,7 @@ module.exports = {
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    // 'nuxt-lazy-load'
-  ],
+  modules: ['@nuxtjs/axios'],
   /*
    ** Build configuration
    */

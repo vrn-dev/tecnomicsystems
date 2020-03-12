@@ -46,7 +46,7 @@
                 <img
                   class="h-40 lazyload"
                   data-src="/icons/data-loss-prevention.png"
-                  alt="DLP"
+                  alt="Data Loss Prevention DLP"
                 />
               </div>
               <h2 class="subtitle-2">Data Loss Prevention</h2>

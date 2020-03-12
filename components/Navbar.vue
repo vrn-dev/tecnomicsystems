@@ -7,7 +7,7 @@
         <img
           class="h-16 lazyload"
           data-src="/images/tecnomic_vector.png"
-          alt="Tecnomic Logo"
+          alt="Tecnomic Systems Logo"
         />
       </div>
       <div class="sm:hidden">

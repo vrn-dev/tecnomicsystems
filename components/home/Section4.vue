@@ -28,14 +28,14 @@
             <img
               class="lazyload"
               data-src="/customer-logos/nus.png"
-              alt="National University of Singapore"
+              alt="National University of Singapore NUS"
             />
           </div>
           <div class="flex justify-center items-center content-center">
             <img
               class="lazyload"
               data-src="/customer-logos/adcb.png"
-              alt="ADCB"
+              alt="Abu Dhabi Commercial Bank ADCB"
             />
           </div>
           <div class="flex justify-center items-center content-center">
@@ -63,7 +63,7 @@
             <img
               class="lazyload"
               data-src="/customer-logos/ey.png"
-              alt="Ernst &amp; Young"
+              alt="Ernst &amp; Young EY"
             />
           </div>
           <div class="flex justify-center items-center content-center">
@@ -189,7 +189,7 @@
             <img
               class="lazyload"
               data-src="/customer-logos/srta.jpg"
-              alt="Sharjah Roads &amp; Transport Authority"
+              alt="Sharjah Roads &amp; Transport Authority SRTA"
             />
           </div>
           <div class="flex justify-center items-center content-center">

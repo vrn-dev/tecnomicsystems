@@ -12,10 +12,10 @@
               <div
                 class="flex-col justify-center text-xl text-left p-6 w-11/12 md:w-2/5"
               >
-                <div class="font-semibold">
+                <h2 class="font-semibold">
                   Singapore HQ
-                </div>
-                <div class="font-semibold">Tecnomic Systems Pte. Ltd.</div>
+                </h2>
+                <h2 class="font-semibold">Tecnomic Systems Pte. Ltd.</h2>
                 <div>120 Lower Delta Road, #08-12 Cendex Center</div>
                 <div>Singapore 169208</div>
                 <div>
@@ -30,12 +30,12 @@
                   >Map Location</a
                 >
                 <div class="mt-5"></div>
-                <div class="font-semibold">
+                <h2 class="font-semibold">
                   Malaysia
-                </div>
-                <div class="font-semibold">
+                </h2>
+                <h2 class="font-semibold">
                   Tecnomic Systems Sdh. Bhd.
-                </div>
+                </h2>
                 <div>27A 1st Floor Jalan SS21/60, Damansara Utama 47400</div>
                 <div>Petaling Jaya Selangor, Malaysia</div>
                 <div>
@@ -50,29 +50,29 @@
                   >Map Location</a
                 >
                 <div class="mt-5"></div>
-                <div class="font-semibold">Indonesia</div>
+                <h2 class="font-semibold">Indonesia</h2>
                 <div>
                   Contact: Mr. Ganjar -
                   <a href="mailto:ganjar@tecnomic.com">ganjar@tecnomic.com</a>
                 </div>
                 <div>Mob: +62-817228801</div>
                 <div class="mt-5"></div>
-                <div class="font-semibold">Thailand</div>
+                <h2 class="font-semibold">Thailand</h2>
                 <div>
                   Contact: Mr. Phuwish -
                   <a href="mailto:phuwish@tecnomic.com">phuwish@tecnomic.com</a>
                 </div>
                 <div>Mob: +62-817228801</div>
                 <div class="mt-5"></div>
-                <div class="font-semibold">
+                <h2 class="font-semibold">
                   India
-                </div>
+                </h2>
                 <div class="font-semibold">
                   Bangalore
                 </div>
-                <div class="font-semibold">
+                <h2 class="font-semibold">
                   Tecnomic Systems and Networks Pvt. Ltd.
-                </div>
+                </h2>
                 <div>1st Floor, Maruthi Towers, 138, HAL Airport Road</div>
                 <div>Bangalore 560008</div>
                 <div>
@@ -84,9 +84,9 @@
                 <div>Fax: +91 80 2521 4860</div>
                 <a href="https://goo.gl/maps/59Tdqu3qpeysJmKu7">Map Location</a>
                 <div class="mt-5"></div>
-                <div class="font-semibold">
+                <h2 class="font-semibold">
                   Noida
-                </div>
+                </h2>
                 <div>A-201, Tower 1, Highway Tower, Plot A-13, Sector 62</div>
                 <div>Noida 201309</div>
                 <div>
@@ -97,16 +97,16 @@
                 <div>Tel: +91 120 6541555</div>
                 <a href="https://goo.gl/maps/J9WA859S6XxQbW5C6">Map Location</a>
                 <div class="mt-5"></div>
-                <div class="font-semibold">
-                  UAE
-                </div>
-                <div class="font-semibold">
-                  Dubai
-                </div>
+                <h2 class="font-semibold">
+                  UAE - Dubai
+                </h2>
+                <h2 class="font-semibold">
+                  Tecnomic Systems Middle East &amp; Africa LLC.
+                </h2>
                 <div>#805-46, Opal Tower, Business Bay</div>
                 <div>PO Box 116410, Dubai, UAE</div>
                 <div>
-                  Contact: Mr. Shibu Jacob -
+                  Contact: Mr. Vaisakh Nair -
                   <a href="mailto:vaisakh@tecnomicsystems.com"
                     >vaisakh@tecnomicsystems.com</a
                   >
@@ -115,12 +115,12 @@
                 <div>Tel: +971 4 370 6360</div>
                 <a href="https://goo.gl/maps/3yAWEb6wdV2gAciQA">Map Location</a>
                 <div class="mt-5"></div>
-                <div class="font-semibold">
+                <h2 class="font-semibold">
                   Australia
-                </div>
-                <div class="font-semibold">
+                </h2>
+                <h2 class="font-semibold">
                   AMFA Systems Pty. Ltd.
-                </div>
+                </h2>
                 <div>88 Bluebell Drive, Craigieburn, 3064</div>
                 <div>Victoria, Australia</div>
                 <div>
@@ -135,6 +135,7 @@
                   @submit.prevent="sendEmail"
                   class="border border-purple-700 p-10 w-11/12"
                 >
+                  <!-- Name -->
                   <div class="flex justify-start">
                     <label
                       v-if="!nameError"
@@ -157,6 +158,30 @@
                       class="w-full text-xl p-2"
                     />
                   </div>
+                  <!-- Company -->
+                  <div class="flex justify-start">
+                    <label
+                      v-if="!companyError"
+                      for="name"
+                      class="text-xl text-left"
+                      >Company*</label
+                    >
+                    <label
+                      v-else
+                      for="name"
+                      class="text-xl text-left text-red-700 font-semibold"
+                      >Company Name is Required</label
+                    >
+                  </div>
+                  <div class="flex items-stretch">
+                    <input
+                      v-model="msg.company"
+                      type="text"
+                      name="name"
+                      class="w-full text-xl p-2"
+                    />
+                  </div>
+                  <!-- Region -->
                   <div class="flex justify-start mt-5">
                     <label
                       v-if="!regionError"
@@ -184,6 +209,7 @@
                       <option value="other">Other</option>
                     </select>
                   </div>
+                  <!-- Email -->
                   <div class="flex justify-start mt-5">
                     <label
                       v-if="!emailError"
@@ -206,6 +232,7 @@
                       class="w-full text-xl p-2"
                     />
                   </div>
+                  <!-- Phone -->
                   <div class="flex justify-start mt-5">
                     <label for="phone" class="text-xl text-left">Phone</label>
                   </div>
@@ -217,6 +244,7 @@
                       class="w-full text-xl p-2"
                     />
                   </div>
+                  <!-- Message -->
                   <div class="flex justify-start mt-5">
                     <label
                       v-if="!msgError"
@@ -258,7 +286,9 @@
                       An error occured while trying to send your message! Please
                       try again later or click on this link to message us
                       directly -
-                      <a href="mailto:" class="font-semibold underline"
+                      <a
+                        href="mailto:sales@tecnomic.com"
+                        class="font-semibold underline"
                         >Email Us</a
                       >
                     </div>
@@ -278,7 +308,11 @@ export default {
   computed: {
     isValid() {
       return (
-        this.msg.name && this.msg.region && this.msg.email && this.msg.message
+        this.msg.name &&
+        this.msg.company &&
+        this.msg.region &&
+        this.msg.email &&
+        this.msg.message
       );
     }
   },
@@ -286,12 +320,14 @@ export default {
     submitted: false,
     valid: false,
     nameError: false,
+    companyError: false,
     regionError: false,
     emailError: false,
     msgError: false,
     sendError: false,
     msg: {
       name: '',
+      company: '',
       region: '',
       email: '',
       phone: '',
@@ -302,19 +338,35 @@ export default {
     async sendEmail() {
       if (!this.isValid) {
         if (!this.msg.name) this.nameError = true;
+        if (!this.msg.company) this.companyError = true;
         if (!this.msg.region) this.regionError = true;
         if (!this.msg.email) this.emailError = true;
         if (!this.msg.message) this.msgError = true;
         return 0;
       } else {
         this.nameError = false;
+        this.companyError = false;
         this.regionError = false;
         this.emailError = false;
         this.msgError = false;
         this.submitted = true;
-        console.log(this.msg);
-        const res = await fetch('https://jsonplaceholder.typicode.com/todos/1');
-        console.log(await res.json());
+        try {
+          await this.$axios.post(
+            'https://us-central1-tecnomic-systems-web.cloudfunctions.net/sendMail',
+            {
+              email: this.msg.email,
+              name: this.msg.name,
+              company: this.msg.company,
+              region: this.msg.region,
+              message: this.msg.message,
+              phone: this.msg.phone ? this.msg.phone : 'NA'
+            }
+          );
+        } catch (error) {
+          // eslint-disable-next-line
+          console.error(error);
+          this.sendError = true;
+        }
       }
     }
   }

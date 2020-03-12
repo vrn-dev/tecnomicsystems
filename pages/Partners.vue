@@ -12,7 +12,7 @@
           <div class="flex justify-center items-center content-center">
             <img
               data-src="/partner-logos/ribbon.png"
-              alt="Ribbon"
+              alt="Ribbon Communications"
               class="lazyload"
             />
           </div>
@@ -47,7 +47,7 @@
           <div class="flex justify-center items-center content-center">
             <img
               data-src="/partner-logos/enghouse.png"
-              alt="Enghouse"
+              alt="Enghouse Interactive"
               class="lazyload"
             />
           </div>
