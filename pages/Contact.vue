@@ -369,6 +369,11 @@ export default {
         }
       }
     }
+  },
+  head() {
+    return {
+      title: 'Tecnomic | Contact Us'
+    };
   }
 };
 </script>

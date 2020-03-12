@@ -37,7 +37,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head() {
+    return {
+      title: 'Tecnomic | About Us'
+    };
+  }
+};
 </script>
 
 <style></style>

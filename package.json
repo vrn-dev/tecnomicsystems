@@ -11,7 +11,7 @@
     "generate": "nuxt generate && yarn firebase:clean && yarn firebase:copy && yarn firebase:rename",
     "firebase:copy": "cp -avr dist firebase-hosting",
     "firebase:rename": "mv firebase-hosting/dist firebase-hosting/public",
-    "firebase:clean": "rm -rf firebase-hosting/dist",
+    "firebase:clean": "rm -rf firebase-hosting/dist firebase-hosting/public",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {

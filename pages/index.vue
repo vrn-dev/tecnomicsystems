@@ -35,6 +35,11 @@ export default {
     Section2,
     Section3,
     Section4
+  },
+  head() {
+    return {
+      title: 'Tecnomic | Home'
+    };
   }
 };
 </script>

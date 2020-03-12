@@ -177,7 +177,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head() {
+    return {
+      title: 'Tecnomic | Partners'
+    };
+  }
+};
 </script>
 
 <style></style>

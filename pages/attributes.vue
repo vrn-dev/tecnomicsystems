@@ -7,7 +7,7 @@
     </div>
     <div>
       &bull;&nbsp;<a
-        href="https://www.flaticon.com/<?=_('authors/')?>freepik"
+        href="https://www.flaticon.com/authors/freepik"
         title="Freepik"
         >Freepik</a
       >
@@ -68,7 +68,7 @@
     </div>
     <div>
       &bull;&nbsp;<a
-        href="https://www.flaticon.com/<?=_('authors/')?>itim2101"
+        href="https://www.flaticon.com/authors/itim2101"
         title="itim2101"
         >itim2101</a
       >
@@ -125,7 +125,19 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head() {
+    return {
+      title: 'Attributions',
+      meta: [
+        {
+          name: 'robots',
+          content: 'none, noarchive, nosnippet, noimageindex'
+        }
+      ]
+    };
+  }
+};
 </script>
 
 <style></style>

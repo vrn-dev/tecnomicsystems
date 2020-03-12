@@ -25,6 +25,11 @@ export default {
     Advantech,
     Kontron,
     Lantronix
+  },
+  head() {
+    return {
+      title: 'Tecnomic | IoT'
+    };
   }
 };
 </script>

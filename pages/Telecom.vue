@@ -77,6 +77,11 @@ export default {
       el.$el.scrollIntoView({ behaviour: 'smooth' });
       this.isOpen = false;
     }
+  },
+  head() {
+    return {
+      title: 'Tecnomic | Telecom'
+    };
   }
 };
 </script>
