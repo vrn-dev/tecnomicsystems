@@ -23,10 +23,8 @@
           the only leader in both cloud and on-premises customer experience
           solutions. Great customer experience drives great business outcomes.
           More than 11,000 companies in over 100 countries trust Genesys. That’s
-          how we became the industry’s #1 customer experience platform. Helping
-          companies deliver seamless omnichannel customer journeys and build
-          lasting relationships is what we do. From marketing, to sales, to
-          service—make every moment count.
+          how they became the industry’s #1 customer experience platform.
+          Helping companies deliver seamless omnichannel customer journeys.
         </div>
       </div>
     </div>

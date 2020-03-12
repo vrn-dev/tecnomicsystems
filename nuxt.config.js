@@ -55,7 +55,20 @@ module.exports = {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/axios'],
+  modules: [
+    '@nuxtjs/axios',
+    [
+      'nuxt-compress',
+      {
+        gzip: {
+          cache: true
+        },
+        brotli: {
+          threshold: 10240
+        }
+      }
+    ]
+  ],
   /*
    ** Build configuration
    */
@@ -70,5 +83,10 @@ module.exports = {
       }
     },
     transpile: ['vue-intersect']
+  },
+  render: {
+    static: {
+      maxAge: 31536000
+    }
   }
 };

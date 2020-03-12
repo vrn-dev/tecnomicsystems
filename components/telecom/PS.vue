@@ -11,11 +11,11 @@
         <div class="xs:text-sm md:text-base">
           Tecnomic has a team of highly skilled Engineers for development
           support, field application installation and maintenance. We provide
-          support services in design, integration, deployment and Maintenance
+          support services in design, integration, deployment and maintenance
           across a wide spectrum of security, telecom and industrial
           applications. We understand the business goals of our customers,
-          thereby committing to support their businesses with highest level of
-          diligence, excellence and urgency.
+          thereby committing to support their businesses with the highest level
+          of diligence, excellence and urgency.
         </div>
         <div class="mt-2 xs:text-sm md:text-base">
           We study to understand client’s business models and objectives to
@@ -23,11 +23,11 @@
           defined goals. We carry a track record of success in Integrating,
           Deploying &amp; Managing large and small voice, video and data
           networks across a myriad of market segments. We can customize the
-          services for 24X7 supports to service providers, enterprise
+          services for 24x7 support to service providers, enterprise
           applications, campus networks, OEM partners. We understand the need
           for highest level of support in telecom &amp; carrier grade products,
           and help to realize seamless error-free integration and best-in-class
-          service. We provide a flexible suite of options for network and
+          services. We provide a flexible suite of options for network and
           security design, configuration, interoperability testing,
           implementation and management, as well as on-going technical training
           and maintenance to ensure the highest possible ROI.

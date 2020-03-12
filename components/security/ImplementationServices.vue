@@ -16,8 +16,8 @@
           Implementation Services
         </h2>
         <div class="xs:text-sm md:text-base">
-          We can help you streamline your IT operations and ensure that all of
-          your technologies, operational configurations and inter-system
+          We help you streamline your IT operations and ensure that all of your
+          technologies, operational configurations and inter-system
           communications are up to date
         </div>
       </div>

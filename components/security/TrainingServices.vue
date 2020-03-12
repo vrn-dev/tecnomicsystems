@@ -9,7 +9,7 @@
           Training Services
         </h2>
         <div class="xs:text-sm md:text-base">
-          We can increase the cyber-awareness and foresight of every employee at
+          We increase the cyber-awareness and foresight of every employee at
           every level of your organization with our tailor-made training
           programmes
         </div>

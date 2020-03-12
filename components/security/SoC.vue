@@ -16,8 +16,11 @@
           Security Operations Center (SoC)
         </h2>
         <div class="xs:text-sm md:text-base">
-          Protecting against today’s rapidly evolving threat landscape requires
-          broad and deep visibility across the entire IT environment
+          Our Security Operations Center services leverages our geographical
+          diversity and gives customers a seamless MSSP (Managed Security
+          Service Provider) experience across multuple technology and threat
+          fronts. We have established SoCs in Dubai, Bangalore, Singapore and
+          Australia
         </div>
       </div>
     </div>

@@ -18,8 +18,8 @@
         <div class="xs:text-sm md:text-base">
           With our end-to-end portfolio of Wireless Network Design, Analysis,
           and Security tools, you can ensure the Security, Performance and
-          Compliance of your wireless networks amidst all the changing
-          conditions
+          Compliance of your wireless networks amidst ever changing threat
+          landscape
         </div>
       </div>
     </div>

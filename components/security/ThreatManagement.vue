@@ -9,7 +9,7 @@
           Threat Management
         </h2>
         <div class="xs:text-sm md:text-base">
-          Our advanced management program enabling early identification of
+          Our advanced management program enables early identification of
           threats, data driven situational awareness, accurate decision-making,
           and timely threat mitigating actions
         </div>

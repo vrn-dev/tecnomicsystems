@@ -2,7 +2,7 @@
   <div class="container bg-blue-100">
     <intersect @enter="section1 = true" @leave="section1 = false">
       <div>
-        <div class="flex justify-center subtitle">
+        <div class="flex justify-center subtitle mt-10">
           <h1>Our Clients</h1>
         </div>
 

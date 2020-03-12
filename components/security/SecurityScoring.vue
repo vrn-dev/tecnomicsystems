@@ -16,10 +16,10 @@
           Security Scoring
         </h2>
         <div class="xs:text-sm md:text-base">
-          Our Security Scoring services help you understand the health of you
-          cyber ecosystem across multiple risk factors including but not limited
-          to Network Security, DNS Health, Pathcing Cadence, Endpoint Security
-          and Web Application Security
+          Our Security Scoring services help you understand the health of your
+          cyber ecosystem, across multiple risk factors including but not
+          limited to Network Security, DNS Health, Pathcing Cadence, Endpoint
+          Security and Web Application Security
         </div>
       </div>
     </div>

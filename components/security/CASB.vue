@@ -16,12 +16,12 @@
           Cloud Access Security Broker
         </h2>
         <div class="xs:text-sm md:text-base">
-          CASBs work by ensuring that network traffic between on-premises
-          devices and the cloud provider complies with the organization's
-          security policies. The value of cloud access security brokers stems
-          from their ability to give insight into cloud application use across
-          cloud platforms and identity unsanctioned use. This is especially
-          important in regulated industries
+          CASBs work by ensuring that network traffic between on-premise devices
+          and the cloud provider, complies with the organization's security
+          policies. The value of cloud access security brokers stems from their
+          ability to give insight into cloud application use across cloud
+          platforms and identify unsanctioned use. This is especially important
+          in regulated industries
         </div>
       </div>
     </div>

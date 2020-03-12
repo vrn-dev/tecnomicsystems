@@ -17,7 +17,9 @@
         </h2>
         <div class="xs:text-sm md:text-base">
           Protecting against today’s rapidly evolving threat landscape requires
-          broad and deep visibility across the entire IT environment
+          broad and deep visibility across the entire IT environment. Our SIEM
+          solutions give enterprises' deep drill visibility into what is
+          happening on the network and adaptively respond to threats
         </div>
       </div>
     </div>

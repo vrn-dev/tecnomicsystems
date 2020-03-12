@@ -10,7 +10,7 @@
         </h2>
         <div class="xs:text-sm md:text-base">
           The rich scanning infrastructure of our solutions compares each email
-          and each web page’s active content and co relates that to an extensive
+          and each web page’s active content and co-relates it to an extensive
           file and URL reputation databases
         </div>
       </div>

@@ -10,7 +10,7 @@
         </h2>
         <div class="xs:text-sm md:text-base">
           Network Security Architecture Review is a systematic examination of
-          the all the layers of an Organization’s network
+          the all the layers of an organization’s network
         </div>
       </div>
       <div class="flex justify-center xs:w-11/12 md:w-1/3">

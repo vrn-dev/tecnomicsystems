@@ -16,8 +16,8 @@
           Cyber Emergency
         </h2>
         <div class="xs:text-sm md:text-base">
-          Cyber Incident Response helps resolves all aspects and impacts of
-          cyber breaches or services includes thorough technical investigation,
+          Cyber Incident Response helps you resolve all aspects and impacts of
+          cyber breaches. Our services include thorough technical investigation,
           containment, and recovery
         </div>
       </div>

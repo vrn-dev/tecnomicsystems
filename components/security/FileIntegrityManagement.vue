@@ -9,9 +9,9 @@
           File Integrity Management
         </h2>
         <div class="xs:text-sm md:text-base">
-          File integrity monitoring (FIM) has become a critical piece of the
-          security puzzle, especially given the evolving nature of the threat to
-          sensitive corporate data
+          File Integrity Monitoring or Management (FIM) has become a critical
+          piece of the security puzzle, especially given the evolving nature of
+          the threat landscape to sensitive corporate data
         </div>
       </div>
       <div class="flex justify-center xs:w-11/12 md:w-1/3">

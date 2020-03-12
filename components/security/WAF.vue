@@ -18,9 +18,9 @@
         <div class="xs:text-sm md:text-base">
           The continued evolution of the threat landscape has enabled
           individuals and groups to launch orchestrated attacks on
-          organizations’ infrastructure for criminal or political gain. We at
-          Securevault specialize in providing solutions that protect your
-          web-based applications and internet-facing data
+          organizations’ infrastructure for criminal or monetary gain. We
+          provide comprehensive solutions that protect your web-based
+          applications and internet-facing data
         </div>
       </div>
     </div>

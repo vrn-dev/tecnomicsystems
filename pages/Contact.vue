@@ -55,14 +55,14 @@
                   Contact: Mr. Ganjar -
                   <a href="mailto:ganjar@tecnomic.com">ganjar@tecnomic.com</a>
                 </div>
-                <div>Mob: +62-817228801</div>
+                <div>Mob: +62 817228801</div>
                 <div class="mt-5"></div>
                 <h2 class="font-semibold">Thailand</h2>
                 <div>
                   Contact: Mr. Phuwish -
                   <a href="mailto:phuwish@tecnomic.com">phuwish@tecnomic.com</a>
                 </div>
-                <div>Mob: +62-817228801</div>
+                <div>Mob: +62 817228801</div>
                 <div class="mt-5"></div>
                 <h2 class="font-semibold">
                   India

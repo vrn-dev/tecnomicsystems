@@ -11,9 +11,8 @@
         <div class="xs:text-sm md:text-base">
           Whether you need to deploy a High Performance Data Centre Firewall, an
           Enterprise Next Generation Firewall or a small UTM for distributed
-          Enterprise Sites or Small business, we at Securevault specialize in
-          consulting &amp; deploying strategic Network Security projects for
-          your enterprise
+          Enterprise Sites or Small business, we specialize in consulting &amp;
+          deploying strategic Network Security projects for your enterprise
         </div>
       </div>
       <div class="flex justify-center xs:w-11/12 md:w-1/3">

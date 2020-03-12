@@ -9,13 +9,12 @@
           Ribbon
         </h2>
         <div class="xs:text-sm md:text-base">
-          Ribbon Communications Inc. (Nasdaq: RBBN) delivers market-leading
-          software and hardware solutions that secure and power many of the
-          world's leading service provider and enterprise communications
-          environments. Built on world-class technology and intellectual
-          property, the company's cloud-native solutions deliver intelligent and
-          secure real-time communications solutions for the cloud, network and
-          enterprise edge
+          Ribbon Communications Inc. delivers market-leading software and
+          hardware solutions that secure and power many of the world's leading
+          service provider and enterprise communications environments. Built on
+          world-class technology and intellectual property, the company's
+          cloud-native solutions deliver intelligent and secure real-time
+          communications solutions for the cloud, network and enterprise edge
         </div>
       </div>
       <div class="flex justify-center xs:w-11/12 md:w-1/3">
