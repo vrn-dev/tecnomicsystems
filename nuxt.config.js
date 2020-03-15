@@ -88,5 +88,8 @@ module.exports = {
     static: {
       maxAge: 31536000
     }
+  },
+  server: {
+    host: '0.0.0.0'
   }
 };

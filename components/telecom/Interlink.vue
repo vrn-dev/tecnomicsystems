@@ -21,11 +21,9 @@
       </div>
       <div class="flex justify-center xs:w-11/12 md:w-1/3">
         <img
-          height="200"
-          width="400"
           data-src="/partner-logos/interlink.png"
           alt="Interlink"
-          class="lazyload"
+          class="h-16 lazyload"
         />
       </div>
     </div>

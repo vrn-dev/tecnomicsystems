@@ -6,11 +6,9 @@
     >
       <div class="flex justify-center xs:w-11/12 md:w-1/3">
         <img
-          height="200"
-          width="400"
           data-src="/partner-logos/genesys.png"
           alt="Genesys"
-          class="lazyload"
+          class="h-32 lazyload"
         />
       </div>
       <div class="flex-col justify-center xs:p-6 md:w-2/3">
