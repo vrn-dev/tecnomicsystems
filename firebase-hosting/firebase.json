@@ -1,6 +1,32 @@
 {
   "hosting": {
     "public": "public",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "/about{,/**}",
+        "destination": "/About/index.html"
+      },
+      {
+        "source": "/security{,/**}",
+        "destination": "/Security/index.html"
+      },
+      {
+        "source": "/telecom{,/**}",
+        "destination": "/Telecom/index.html"
+      },
+      {
+        "source": "/iot{,/**}",
+        "destination": "/IoT/index.html"
+      },
+      {
+        "source": "/partners{,/**}",
+        "destination": "/Partners/index.html"
+      },
+      {
+        "source": "/contact{,/**}",
+        "destination": "/Contact/index.html"
+      }
+    ]
   }
 }
