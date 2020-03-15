@@ -135,13 +135,13 @@
               class="lazyload"
             />
           </div>
-          <div class="flex justify-center items-center content-center">
+          <!-- <div class="flex justify-center items-center content-center">
             <img
               data-src="/partner-logos/kratikal.png"
               alt="Kratikal"
               class="lazyload"
             />
-          </div>
+          </div> -->
           <div class="flex justify-center items-center content-center">
             <img
               data-src="/partner-logos/clasefi.png"

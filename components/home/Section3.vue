@@ -9,49 +9,56 @@
           class="flex justify-center flex-wrap mt-10"
           :class="section1 ? 'fade-in-bottom' : ''"
         >
-          <div class="flex-col justify-center mx-5">
-            <div class="flex justify-center mb-3">
-              <img
-                class="h-40 lazyload"
-                data-src="/icons/session-border-controller.png"
-                alt="Session Border Controller SBC"
-              />
+          <nuxt-link to="/telecom">
+            <div class="flex-col justify-center mx-5">
+              <div class="flex justify-center mb-3">
+                <img
+                  class="h-40 lazyload"
+                  data-src="/icons/session-border-controller.png"
+                  alt="Session Border Controller SBC"
+                />
+              </div>
+              <h2 class="subtitle-2">Session Border Controllers</h2>
             </div>
-            <h2 class="subtitle-2">Session Border Controllers</h2>
-          </div>
+          </nuxt-link>
+          <nuxt-link to="/telecom">
+            <div class="flex-col justify-center mx-5">
+              <div class="flex justify-center mb-3">
+                <img
+                  class="h-40 lazyload"
+                  data-src="/icons/teams.png"
+                  alt="Unified Communications"
+                />
+              </div>
+              <h2 class="subtitle-2">Unified Communications</h2>
+            </div>
+          </nuxt-link>
 
-          <div class="flex-col justify-center mx-5">
-            <div class="flex justify-center mb-3">
-              <img
-                class="h-40 lazyload"
-                data-src="/icons/teams.png"
-                alt="Unified Communications"
-              />
+          <nuxt-link to="/telecom">
+            <div class="flex-col justify-center mx-5">
+              <div class="flex justify-center mb-3">
+                <img
+                  class="h-40 lazyload"
+                  data-src="/icons/contact-center.png"
+                  alt="Contact Center"
+                />
+              </div>
+              <h2 class="subtitle-2">Contact Center Solutions</h2>
             </div>
-            <h2 class="subtitle-2">Unified Communications</h2>
-          </div>
+          </nuxt-link>
 
-          <div class="flex-col justify-center mx-5">
-            <div class="flex justify-center mb-3">
-              <img
-                class="h-40 lazyload"
-                data-src="/icons/contact-center.png"
-                alt="Contact Center"
-              />
+          <nuxt-link to="/telecom">
+            <div class="flex-col justify-center mx-5">
+              <div class="flex justify-center mb-3">
+                <img
+                  class="h-40 lazyload"
+                  data-src="/icons/recording.png"
+                  alt="Recording Solutions"
+                />
+              </div>
+              <h2 class="subtitle-2">Recording Solutions</h2>
             </div>
-            <h2 class="subtitle-2">Contact Center Solutions</h2>
-          </div>
-
-          <div class="flex-col justify-center mx-5">
-            <div class="flex justify-center mb-3">
-              <img
-                class="h-40 lazyload"
-                data-src="/icons/recording.png"
-                alt="Recording Solutions"
-              />
-            </div>
-            <h2 class="subtitle-2">Recording Solutions</h2>
-          </div>
+          </nuxt-link>
         </div>
       </div>
     </intersect>
