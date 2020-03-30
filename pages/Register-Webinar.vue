@@ -255,7 +255,7 @@ export default {
             phone: this.msg.phone,
             country: this.msg.country
           };
-          console.log(body);
+          // console.log(body);
           await this.$axios.post(
             'https://us-central1-tecnomic-systems-web.cloudfunctions.net/sendNueraWebinarMail',
             body
@@ -278,10 +278,13 @@ export default {
   created() {
     this.eventName = this.$route.query.event;
     this.eventDT = this.$route.query.dt;
-    const zSplit = this.$route.query.z.split('');
-    if (zSplit[0] === 'p') zSplit[0] = '+';
-    else if (zSplit[0] === 'm') zSplit[0] = '-';
-    this.zone = zSplit.join('');
+
+    if (this.$route.query.z) {
+      const zSplit = this.$route.query.z.split('');
+      if (zSplit[0] === 'p') zSplit[0] = '+';
+      else if (zSplit[0] === 'm') zSplit[0] = '-';
+      this.zone = zSplit.join('');
+    }
   },
   head() {
     return {
