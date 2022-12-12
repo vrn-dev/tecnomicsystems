@@ -18,7 +18,7 @@
     "@nuxtjs/axios": "^5.9.5",
     "cross-env": "^5.2.0",
     "dayjs": "^1.8.23",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "lazysizes": "^5.2.0",
     "nuxt": "^2.0.0"
   },
